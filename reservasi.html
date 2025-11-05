@@ -1,0 +1,136 @@
+<html>
+<style>
+  body {
+    background-color: #f5deb3; /* Warna beige seperti kopi susu */
+    font-family: Arial, sans-serif;
+    color: #5a3a22; /* Warna coklat tua untuk teks */
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff8e1; /* Warna krem lebih terang untuk konten */
+    border-radius: 8px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #8b4513; /* Warna coklat tua untuk nav */
+    overflow: hidden;
+  }
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #a0522d;
+  }
+  table {
+    width: 100%;
+  }
+  th, td {
+   
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #d2b48c; /* Warna tan untuk header tabel */
+  }
+</style>
+<head>
+  
+  <body bgcolor="#fff8dc">
+
+  <h2 align="middle">Kopi Senja</h2>
+
+    <tr>
+      <td><a href="index.html"><img src="beranda.JPG" width="100" height="80"></a></td>
+      <td><a href="menu.html"><img src="menu.JPG" width="100" height="80"></a></td>
+      <td><a href="reservasi.html"><img src="reservasi.JPG" width="100" height="80"></a></td>
+    </tr>
+
+  <form>
+    <table>
+      <tr>
+        <td>Nama Lengkap:</td>
+        <td><input type="text" name="nama"></td>
+      </tr>
+      <tr>
+        <td>Nomor Telepon:</td>
+        <td><input type="tel" name="telepon"></td>
+      </tr>
+      <tr>
+        <td>Tanggal Reservasi:</td>
+        <td><input type="date" name="tanggal"></td>
+      </tr>
+      <tr>
+        <td>Jumlah Orang:</td>
+        <td><input type="number" name="jumlah" min="1"></td>
+      </tr>
+      <tr>
+        <td>Pilih Area:</td>
+        <td>
+          <input type="radio" name="area" value="Indoor (Non-Smoking)"> Indoor (Non-Smoking)
+          <input type="radio" name="area" value="Outdoor (Smoking)"> Outdoor (Smoking)
+        </td>
+      </tr>
+      <tr>
+        <td>Catatan Tambahan:</td>
+        <td><textarea name="catatan" rows="3" cols="25"></textarea></td>
+      </tr>
+      <tr>
+        <td>
+          <button type="submit" style="background-color:#f5deb3; color:#5a3a22; border:none; padding:8px 20px; border-radius:6px; cursor:pointer;">
+            Kirim Reservasi
+          </button>
+        </td>
+      </tr>
+    </table>
+  </form>
+
+  <h3>Informasi Penting:</h3>
+  <ul>
+    <ol>-Reservasi akan kami konfirmasi melalui telepon.</ol>
+    <ol>-Mohon datang 10 menit sebelum waktu reservasi.</ol>
+    <ol>-Reservasi lebih dari 6 orang harap hubungi kami langsung.</ol>
+  </ul>
+
+  <h3>Slot Waktu Tersedia:</h3>
+  
+  <table>
+    <tr>
+      <th>Sesi</th>
+      <th>Waktu</th>
+    </tr>
+    <tr>
+      <td>Pagi</td>
+      <td>09:00, 10:00, 11:00</td>
+    </tr>
+    <tr>
+      <td>Siang</td>
+      <td>13:00, 14:00, 15:00</td>
+    </tr>
+    <tr>
+      <td>Malam</td>
+      <td>19:00, 20:00, 21:00</td>
+    </tr>
+  </table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
